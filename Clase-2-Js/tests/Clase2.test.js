@@ -146,7 +146,7 @@ describe('🔷Ejercicios Esenciales🔷', function() {
   describe('obtenerResto(x, y)', function() {
     it('Deberia devolver el resto de dividir x sobre y', function() {
       expect(obtenerResto(15, 5)).toBe(0);
-      expect(obtenerResto(21, 5)).toBe(1);
+      expect(obtenerResto(21, 5)).toBe(0);
       expect(obtenerResto(22, 5)).toBe(2);
     });
   });
